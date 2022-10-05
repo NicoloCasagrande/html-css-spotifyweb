@@ -68,3 +68,8 @@ footer i:hover{
     right: -0.0938rem;
     cursor: pointer;
 }
+
+.main-head ul li a:hover{
+    font-weight: bold;
+    color: gray;
+}

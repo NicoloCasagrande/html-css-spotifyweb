@@ -206,6 +206,10 @@ aside a:last-of-type{
     font-size: .75rem;
 }
 
+.selezionato{
+    font-weight: bold;
+}
+
 .sel-bassa{
     width: 1.875rem;
     height: .125rem;
