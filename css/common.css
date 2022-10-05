@@ -25,3 +25,11 @@ body{
 .vertical-aligned{
     align-self: center;
 }
+
+section{
+    padding: .9375rem;
+}
+
+.text-align{
+    text-align: center;
+}
