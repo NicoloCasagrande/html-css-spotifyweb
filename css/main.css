@@ -9,6 +9,13 @@ aside{
     width: 14.375rem;
     background-color: black;
     padding-left: 20px;
+    font-size: .75rem;
+    color: #717171;
+    font-weight: bold;
+}
+
+.white{
+    color: white;
 }
 
 .logo{
@@ -36,8 +43,69 @@ aside ul li img{
 }
 
 .vertical-aligned{
+    font-size: .75rem;
     align-self: center;
 }
+
+.playlist-nav{
+    overflow-y: auto;
+}
+
+.playlist li:first-child{
+    margin-top: 1.5625rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.playlist li{
+    margin-top: 1.25rem;
+}
+
+.playlist li:nth-child(2){
+    margin-top: .625rem;
+}
+
+.playlist div{
+    height: 2.1875rem;
+    width: 2.1875rem;
+    background-color: #a3a3a3;
+    margin-right: .625rem;
+}
+
+.download{
+    margin-left: .05rem;
+    padding-top: .625rem;
+}
+.download img{
+    width: 1.25rem;
+    margin-right: .3125rem;
+}
+
+aside .column{
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.profile-img{
+    margin-top: .625rem;
+    height: 1.5625rem;
+    width: 1.5625rem;
+    border-radius: 50%;
+    background-color: #808080;
+    display: inline-block;
+    padding: .125rem;
+    overflow: hidden;
+    margin-right: .375rem;
+}
+
+.profile-img img{
+    margin-left: .05rem;
+}
+
+aside a:last-of-type{
+    padding-bottom: .375rem;
+}
+
 
 @media screen and (max-width:600px) {
     aside{
@@ -54,6 +122,10 @@ aside ul li img{
     }
 
     .logo{
+        display: none;
+    }
+
+    .hidden-text{
         display: none;
     }
 }
@@ -73,7 +145,6 @@ aside ul li img{
 
 .main-head ul li a{
     text-transform: uppercase;
-    text-decoration: none;
     color: inherit;
     font-size: .75rem;
 }

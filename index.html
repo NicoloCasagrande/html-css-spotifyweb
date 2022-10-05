@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- /Google Fonts -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <title>Spotify</title>
 </head>
 <body>
     <header>
@@ -19,25 +20,43 @@
         </div>
     </header>
     <div class="page-container">
-        <aside>
+        <aside class="column">
             <a class= logo href=""><img src="img/logo.svg" alt=""></a>
             <a class= logo-small href=""><img src="img/logo-small.svg" alt=""></a>
             <ul>
-                <li class="row"><img src="img/home.svg" alt=""><span class="hidden-text vertical-aligned"> Home</span></li>
+                <li class="row"><img src="img/home.svg" alt=""><span class="hidden-text vertical-aligned white"> Home</span></li>
                 <li class="row"><img src="img/search.svg" alt=""><span class="hidden-text vertical-aligned"> Cerca</span></li>
                 <li class="row"><img src="img/libreria.svg" alt=""><span class="hidden-text vertical-aligned"> La tua libreria</span></li>
             </ul>
+            <div class="column">
+                <div class="playlist-nav">
+                    <ul class="playlist hidden-text">
+                        <li class="white">playlist</li>
+                        <li class="row"><div></div><span class="vertical-aligned">Crea Playlist</span></li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                    </ul>
+                </div>
+                <div class="download hidden-text">
+                    <a class ="text-decoration-none row" href=""><img class="download"src="img/download.svg" alt=""><span class="vertical-aligned"> Installa app</span></a>
+                    <hr>
+                    <a class ="text-decoration-none row" href=""><div class="profile-img"><img src="img/profile.svg" alt=""></div><span class="white vertical-aligned">Nicolò Casagrande</span></a>
+                </div>
+            </div>
         </aside>
         <main>
             <div class="main-head">
                 <nav class="secondary-nav">
                     <ul class="row">
-                        <li><a href="">In evidenza</a></li>
-                        <li><a href="">Podcast</a></li>
-                        <li><a href="">Classifiche</a></li>
-                        <li><a href="">Generi e Mood</a></li>
-                        <li><a href="">Nuove uscite</a></li>
-                        <li><a href="">scopri</a></li>
+                        <li><a class="text-decoration-none" href="">In evidenza</a></li>
+                        <li><a class="text-decoration-none" href="">Podcast</a></li>
+                        <li><a class="text-decoration-none" href="">Classifiche</a></li>
+                        <li><a class="text-decoration-none" href="">Generi e Mood</a></li>
+                        <li><a class="text-decoration-none" href="">Nuove uscite</a></li>
+                        <li><a class="text-decoration-none" href="">scopri</a></li>
                     </ul>
                 </nav>
             </div>
