@@ -27,9 +27,12 @@ aside .column{
 
 .selezione{
     position: absolute;
+    background-color: #adff2f;
+}
+
+.sel-laterale{
     height: 1.875rem;
     width: .1875rem;
-    background-color: #adff2f;
     top: 0;
     left: -20px;
 }
@@ -163,7 +166,7 @@ aside a:last-of-type{
         margin-left: 0;
     }
 
-    .selezione{
+    .sel-laterale{
         left: -0.625rem;
     }
 }
@@ -183,6 +186,7 @@ aside a:last-of-type{
 }
 .main-head ul li{
     margin-bottom: .625rem;
+    position: relative;
 }
 
 .main-head ul li:not(last-child){
@@ -193,6 +197,13 @@ aside a:last-of-type{
     text-transform: uppercase;
     color: inherit;
     font-size: .75rem;
+}
+
+.sel-bassa{
+    width: 1.875rem;
+    height: .125rem;
+    bottom: -0.1875rem;
+    left: 1.875rem;
 }
 /*-------------------------------------
              /MAIN HEAD 
