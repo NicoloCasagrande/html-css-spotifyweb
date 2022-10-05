@@ -20,7 +20,7 @@ footer{
     width: 30%;
 }
 .canzone-attuale img{
-    width: 30%;
+    width: 20%;
     height: 100%;
     margin-right: .4375rem;
     object-fit: contain;
@@ -37,8 +37,6 @@ footer{
 .icone-canzone{
     margin-left: 20px;
 }
-
-
 
 .console{
     color: white;
