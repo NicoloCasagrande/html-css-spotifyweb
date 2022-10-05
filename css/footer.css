@@ -42,6 +42,7 @@ footer{
     color: white;
     font-size: 1.25rem;
     width: 40%;
+    position: relative;
 }
 
 .console-icons{
@@ -63,6 +64,24 @@ footer{
     justify-content: center;
 }
 
+.console-time .circle{
+    height: .5rem;
+    width: .5rem;
+    background-color: white;
+    position: absolute;
+    top: -0.125rem;
+    right: 0;
+}
+
+.other-commands .circle{
+    height: .375rem;
+    width: .375rem;
+    background-color: white;
+    position: absolute;
+    top: -0.0469rem;
+    right: 0;
+}
+
 .console span{
     width: auto;
     font-size: .625rem;
@@ -79,6 +98,7 @@ footer{
     height: .25rem;
     background-color: #c1c1c1;
     width: 15%;
+    position: relative;
 }
 
 .time-line-mancante{

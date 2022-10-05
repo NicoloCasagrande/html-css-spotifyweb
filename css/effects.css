@@ -30,3 +30,41 @@ i:hover{
 .anteprima-completa .col:hover{
     cursor: pointer;
 }
+
+footer i:hover{
+    color: gray;
+}
+
+.nome-brano h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nome-brano span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.console-time:hover .circle{
+    height: .625rem;
+    width: .625rem;
+    top: -0.1875rem;
+    right: -0.0938rem;
+    cursor: pointer;
+}
+
+.other-commands .time-line-trascorso:hover .circle{
+    height: .5rem;
+    width: .5rem;
+    top: -2px;
+    right: -0.0938rem;
+    cursor: pointer;
+}
+
+.other-commands .time-line-mancante:hover .circle{
+    height: .5rem;
+    width: .5rem;
+    top: -2px;
+    right: -0.0938rem;
+    cursor: pointer;
+}
