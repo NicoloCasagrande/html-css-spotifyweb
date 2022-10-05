@@ -1,8 +1,18 @@
 body{
     height: 100vh;
+    color: white;
 }
 
 .page-container{
-    height: calc(100% - 5rem);
+    height: calc(100% - 5.625rem);
     display: flex;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
 }

@@ -1,5 +1,28 @@
 header{
     position: fixed;
     right: 0;
-    left: 18.75rem;
+    left: 14.375rem;
+    height: 5.625rem;
+    background-color: rgba(8,11,18,0.9);
+    padding: 1.25rem .3125rem;
+}
+
+.upgrade{
+    padding: .9375rem 2.5rem;
+    border: .0625rem solid white;
+    border-radius: 2.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+    font-size: .8125rem;
+}
+
+header .row{
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:600px){
+    header{
+        left: 3.125rem;
+    }
 }
