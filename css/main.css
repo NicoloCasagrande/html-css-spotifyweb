@@ -77,8 +77,12 @@ aside ul li img{
 
 .download{
     margin-left: .05rem;
-    padding-top: .625rem;
 }
+
+.download a:first-child{
+    padding-bottom: .25rem;
+}
+
 .download img{
     width: 1.25rem;
     margin-right: .3125rem;

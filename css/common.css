@@ -33,3 +33,19 @@ section{
 .text-align{
     text-align: center;
 }
+
+a:hover{
+    cursor: pointer;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.recently-played .col:hover{
+    cursor: pointer;
+}
+
+i:hover{
+    cursor: pointer;
+}
