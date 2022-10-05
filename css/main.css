@@ -209,6 +209,27 @@ aside a:last-of-type{
     border-radius: 50%;
 }
 
+@media screen and (max-width:1100px) {
+    .recently-played > .row{
+        flex-wrap: wrap;
+    }
+    .recently-played .col{
+        width: calc(100%/4);
+    }
+}
+
+@media screen and (max-width:700px) {
+    .recently-played .col{
+        width: calc(100%/2);
+    }
+}
+
+@media screen and (max-width:350px) {
+    .recently-played .col{
+        width: calc(100%);
+    }
+}
+
 /*-------------------------------------
              /RECENTLY PLAYED
 --------------------------------------*/
