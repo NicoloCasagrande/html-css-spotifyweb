@@ -1,0 +1,7 @@
+footer{
+    height: 5rem;
+    background-color: gray;
+    position: sticky;
+    left: 0;
+    right: 0;
+}
