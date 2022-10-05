@@ -5,4 +5,165 @@ footer{
     left: 0;
     right: 0;
     background-color: #282828;
+    padding: 1.0625rem .9375rem;
+    font-size: .75rem;
+    color: #717171;
+    font-weight: bold;
+}
+
+.foot-row{
+    justify-content: space-between;
+}
+
+.canzone-attuale{
+    height: 3.125rem;
+    width: 30%;
+}
+.canzone-attuale img{
+    width: 30%;
+    height: 100%;
+    margin-right: .4375rem;
+    object-fit: contain;
+}
+
+.nome-brano span{
+    display: block;
+}
+
+.canzone-attuale i:first-child{
+    margin-right: .5rem;
+}
+
+.icone-canzone{
+    margin-left: 20px;
+}
+
+
+
+.console{
+    color: white;
+    font-size: 1.25rem;
+    width: 40%;
+}
+
+.console-icons{
+    height: 50%;
+    align-self: center;
+}
+
+.console-icons i:not(:last-of-type){
+    margin-right: 1.75rem;
+}
+
+.bigger{
+    font-size: 2.125rem
+}
+
+.console-time{
+    height: 50%;
+    margin-top: .9375rem;
+    justify-content: center;
+}
+
+.console span{
+    width: auto;
+    font-size: .625rem;
+}
+
+.console span:first-child{
+    margin-right: .1875rem;
+}
+.console span:last-child{
+    margin-left: .1875rem;
+}
+
+.time-line-trascorso{
+    height: .25rem;
+    background-color: #c1c1c1;
+    width: 15%;
+}
+
+.time-line-mancante{
+    height: .25rem;
+    width: 65%;
+    background-color: #5a5a5a;
+}
+
+.speak-line{
+    width: 30%;
+}
+
+.other-commands{
+    width: 30%;
+    color: white;
+    justify-content: flex-end;
+    margin-left: -25px;
+}
+
+.other-commands i{
+    margin-right: .625rem
+}
+
+@media screen and (max-width:700px) {
+    .icone-canzone{
+        flex-direction: column;
+    }
+    .icone-canzone i:last-child{
+        margin-top: .3125rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .icone-canzone{
+        margin-left: .1875rem;
+    }
+
+    .canzone-attuale h3{
+        font-size: clamp(.5rem, .75rem , .75rem);
+    }
+    .canzone-attuale span{
+        font-size: clamp(.375rem,.625rem, .625rem);
+    }
+    .other-commands i{
+        margin-right: .3125rem;
+    }
+    .speak-line{
+        width: 20%;
+    }
+    .other-commands .time-line-trascorso{
+        width: 7.5%;;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .canzone-attuale img{
+        display: none;
+    }
+    .canzone-attuale{
+        width: 20%;
+    }
+    .other-commands i{
+        font-size: .625rem;
+    }
+    .console i:not(:nth-child(3)){
+        font-size: .875rem;
+    }
+    .console i:nth-child(3){
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .canzone-attuale {
+        display: none;
+    }
+
+    .console, .other-commands{
+        margin-left: 1.5625rem;
+    }
+
+    .foot-row{
+        justify-content: space-around;
+    }
+
 }

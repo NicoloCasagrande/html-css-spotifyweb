@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- /Google Fonts -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- /Font Awesome -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.ico"/>
     <title>Spotify</title>
@@ -63,7 +66,41 @@
         </main>
     </div>
     <footer>
-
+        <div class="row foot-row">
+            <div class="canzone-attuale row vertical-aligned">
+                <img src="img/sinister.jpeg" alt="">
+                <div class="nome-brano vertical-aligned">
+                    <h3 class="white">Sinister</h3>
+                    <span><nobr>Nome Brano</nobr></span>
+                </div>
+                <div class="icone-canzone row vertical-aligned">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i> 
+                </div>
+            </div>
+            <div class="console column">
+                <div class="console-icons row">
+                    <i class="fa-solid fa-shuffle vertical-aligned"></i>
+                    <i class="fa-solid fa-backward-step vertical-aligned"></i>
+                    <i class="fa-regular fa-circle-play bigger vertical-aligned"></i>
+                    <i class="fa-solid fa-forward-step vertical-aligned"></i>
+                    <i class="fa-solid fa-arrow-rotate-right vertical-aligned"></i>
+                </div>
+                <div class="console-time row">
+                    <span class="vertical-aligned">0:25</span>
+                    <div class="time-line-trascorso vertical-aligned"></div>
+                    <div class="time-line-mancante vertical-aligned"></div>
+                    <span class="vertical-aligned">4:35</span>
+                </div>
+            </div>
+            <div class="other-commands row">
+                <i class="fa-solid fa-bars vertical-aligned"></i>
+                <i class="fa-solid fa-tv vertical-aligned"></i>
+                <i class="fa-solid fa-volume-high vertical-aligned"></i>
+                <div class="time-line-trascorso vertical-aligned"></div>
+                <div class="time-line-mancante speak-line vertical-aligned"></div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

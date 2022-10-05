@@ -21,3 +21,7 @@ body{
     text-decoration: none;
     color: inherit;
 }
+
+.vertical-aligned{
+    align-self: center;
+}

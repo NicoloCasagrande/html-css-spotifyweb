@@ -5,6 +5,7 @@ header{
     height: 5.625rem;
     background-color: rgba(8,11,18,0.9);
     padding: 1.25rem .3125rem;
+    min-width: 15.25rem;
 }
 
 .upgrade{

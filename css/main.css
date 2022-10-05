@@ -5,6 +5,10 @@ main{
     padding-top: 5.625rem;
 }
 
+/*-------------------------------------
+             ASIDE 
+--------------------------------------*/
+
 aside{
     width: 14.375rem;
     background-color: black;
@@ -40,11 +44,6 @@ aside ul {
 }
 aside ul li img{
     width: 1.875rem;
-}
-
-.vertical-aligned{
-    font-size: .75rem;
-    align-self: center;
 }
 
 .playlist-nav{
@@ -129,6 +128,10 @@ aside a:last-of-type{
         display: none;
     }
 }
+
+/*-------------------------------------
+             /ASIDE 
+--------------------------------------*/
 
 .main-head ul{
     justify-content: center;
