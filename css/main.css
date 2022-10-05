@@ -85,6 +85,9 @@ aside ul li img{
     font-weight: bolder;
 }
 
+.playlist .row div:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
 .playlist li{
     margin-top: 1.25rem;
 }
@@ -98,6 +101,10 @@ aside ul li img{
     width: 2.1875rem;
     background-color: #a3a3a3;
     margin-right: .625rem;
+    font-size: 1.125rem;
+    color: black;
+    text-align: center;
+    padding-top: .375rem;
 }
 
 .download{
@@ -213,6 +220,19 @@ aside a:last-of-type{
              RECENTLY PLAYED
 --------------------------------------*/
 
+.anteprima{
+    position: relative;
+}
+
+.anteprima-completa i{
+    font-size: 2.1875rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -1.0938rem;
+    display: none;
+}
+
 .anteprima-completa h2{
     padding-bottom: 15px;
     font-size: 1.125rem;
@@ -254,6 +274,8 @@ aside a:last-of-type{
 .circle{
     border-radius: 50%;
 }
+
+
 
 @media screen and (max-width:1400px) {
     .anteprima-completa > .row{

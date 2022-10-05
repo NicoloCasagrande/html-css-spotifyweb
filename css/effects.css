@@ -1,0 +1,32 @@
+a:hover{
+    cursor: pointer;
+}
+
+li:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.recently-played .col:hover{
+    cursor: pointer;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.anteprima-completa .col:hover .anteprima img{
+    opacity: 0.6;
+}
+
+.anteprima-completa .col:hover .text-align .white{
+    color: lightgray;
+}
+
+.anteprima-completa .col:hover i{
+    display: block;
+} 
+
+.anteprima-completa .col:hover{
+    cursor: pointer;
+}
