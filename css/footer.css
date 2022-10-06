@@ -185,3 +185,23 @@ footer{
     }
 
 }
+
+@media screen and (max-width:280px) {
+    .canzone-attuale {
+        display: none;
+    }
+
+    .console{
+        margin-left: 0;
+    }
+
+    .other-commands{
+        display: none;
+    }
+
+
+    .foot-row{
+        justify-content: space-around;
+    }
+
+}
