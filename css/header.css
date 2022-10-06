@@ -33,3 +33,20 @@ header .row{
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
 }
+
+@media screen and (max-width:300px) {
+    .upgrade{
+        padding: .625rem 1.875rem;
+    }
+
+    header .row{
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width:270px) {
+    .upgrade{
+        padding: .3125rem .9375rem;
+    }
+
+}
