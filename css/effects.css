@@ -77,3 +77,13 @@ footer i:hover{
 .download a:first-child:hover{
     color: white;
 }
+
+.nav-head div:hover div{
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-head div:hover span{
+    color: white;
+    cursor: pointer;
+}
