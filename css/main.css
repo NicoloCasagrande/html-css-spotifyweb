@@ -12,13 +12,21 @@ main{
 aside{
     width: 14.375rem;
     background-color: black;
-    
 }
 
 aside, section{
     font-size: .75rem;
     color: #717171;
     font-weight: bold;
+}
+
+aside h5{
+    margin-top: .9375rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    font-size: .75rem;
 }
 
 aside .column{
@@ -41,6 +49,7 @@ aside .column{
 
 .white{
     color: white;
+    overflow-y: hidden;
 }
 
 .logo{
@@ -79,12 +88,11 @@ aside ul li img{
 
 .playlist-nav{
     overflow-y: auto;
+    flex-grow: 1;
 }
 
-.playlist li:first-child{
-    margin-top: 1.5625rem;
-    text-transform: uppercase;
-    font-weight: bolder;
+.playlist li:nth-child(2){
+    overflow-y: hidden;
 }
 
 .playlist .row:hover div{
@@ -94,11 +102,7 @@ aside ul li img{
     margin-top: 1.25rem;
 }
 
-.playlist li:nth-child(2){
-    margin-top: .625rem;
-}
-
-.playlist div{
+.aggiungi{
     height: 2.1875rem;
     width: 2.1875rem;
     background-color: #a3a3a3;
@@ -107,6 +111,11 @@ aside ul li img{
     color: black;
     text-align: center;
     padding-top: .375rem;
+}
+
+.nav-head{
+    margin-left: 1.25rem;
+    overflow-y: visible;
 }
 
 .download{
