@@ -22,7 +22,9 @@ aside, section{
 }
 
 aside .column{
-    overflow: auto;
+    overflow-y: auto;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
 .selezione{
@@ -109,6 +111,7 @@ aside ul li img{
 
 .download{
     margin-left: .05rem;
+    overflow-y: initial;
 }
 
 .download a:first-child{
@@ -119,11 +122,6 @@ aside ul li img{
 .download img{
     width: 1.25rem;
     margin-right: .3125rem;
-}
-
-aside .column{
-    flex-grow: 1;
-    justify-content: space-between;
 }
 
 .profile-img{
@@ -235,6 +233,7 @@ aside a:last-of-type{
     left: 50%;
     margin: -1.0938rem;
     display: none;
+    color: white;
 }
 
 .anteprima-completa h2{

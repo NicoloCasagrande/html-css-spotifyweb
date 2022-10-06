@@ -73,3 +73,7 @@ footer i:hover{
     font-weight: bold;
     color: gray;
 }
+
+.download a:first-child:hover{
+    color: white;
+}
