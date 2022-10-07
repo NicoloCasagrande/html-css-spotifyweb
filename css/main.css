@@ -289,7 +289,7 @@ aside a:last-of-type{
 
 
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:2000px) {
     .anteprima-completa > .row{
         flex-wrap: wrap;
     }
@@ -298,13 +298,13 @@ aside a:last-of-type{
     }
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1250px) {
     .anteprima-completa .col{
         width: calc(100%/4);
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
     .anteprima-completa .col{
         width: calc(100%/2);
     }
