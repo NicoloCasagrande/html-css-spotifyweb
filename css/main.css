@@ -304,6 +304,12 @@ aside a:last-of-type{
     }
 }
 
+@media screen and (max-width:1050px) {
+    .anteprima-completa .col{
+        width: calc(100%/3);
+    }
+}
+
 @media screen and (max-width:900px) {
     .anteprima-completa .col{
         width: calc(100%/2);
