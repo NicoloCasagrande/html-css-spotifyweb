@@ -32,7 +32,6 @@ aside h5{
 aside .column{
     overflow-y: auto;
     flex-grow: 1;
-    justify-content: space-between;
 }
 
 .selezione{
@@ -115,12 +114,11 @@ aside ul li img{
 
 .nav-head{
     margin-left: 1.25rem;
-    overflow-y: visible;
 }
 
 .download{
     margin-left: .05rem;
-    overflow-y: initial;
+    margin-top: auto;
 }
 
 .download a:first-child{

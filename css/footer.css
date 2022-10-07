@@ -154,9 +154,7 @@ footer{
 }
 
 @media screen and (max-width:500px) {
-    .canzone-attuale img{
-        display: none;
-    }
+    
     .canzone-attuale{
         width: 20%;
     }
@@ -168,6 +166,10 @@ footer{
     }
     .console i:nth-child(3){
         font-size: 1.875rem;
+    }
+
+    .other-commands{
+        width: 17%;
     }
 }
 
