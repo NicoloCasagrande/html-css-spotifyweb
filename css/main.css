@@ -298,7 +298,7 @@ aside a:last-of-type{
     }
 }
 
-@media screen and (max-width:1250px) {
+@media screen and (max-width:1350px) {
     .anteprima-completa .col{
         width: calc(100%/4);
     }
